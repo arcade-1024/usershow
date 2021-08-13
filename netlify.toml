@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/"
-  to = "/login"
+  to = "/user"
   status = 301
   force = true
