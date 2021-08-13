@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
-}
+	async() {
+		redirects: [
+			{
+				source: "/",
+				destination: "/user",
+				permanent: true,
+			},
+		];
+	},
+};
